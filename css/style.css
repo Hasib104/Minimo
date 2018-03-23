@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+
+.common_margin{
+    margin-top: 60px;
+}
+
+header{
+    overflow: hidden;
+}
+
+#slider {
+    overflow: hidden;
+}
+#slider img{
+    width: 100%;
+}
+
+#Intro {
+    overflow: hidden;
+}
+
+#Desrciption {
+    overflow: hidden;
+}
+
+#newsletter {
+    overflow: hidden;
+    background-color: #F0F0F0
+}
+
+#lifestyle {
+     
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.logo h1{
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 40px;
+    padding: 20px 0px;
+    font-weight:100;
+    letter-spacing: 8px;
+}
+
+.nav {
+    float: right;
+    width: 70%;
+}
+
+.nav ul{
+    list-style: none;
+    float: right;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 20px 68px;
+    font-size: 18px;
+    padding-right: 0px;
+    padding-left: 160px;
+}
+.nav ul li a:hover{
+    color: black;
+}
+
+.slider {
+}
+
+.site_intro {
+    overflow: hidden;
+    padding: 0px 80px;
+}
+
+.site_intro h1{
+    font-size: 37px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.site_intro p{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 25px 0px;
+}
+
+.captiontag {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.blog {
+    padding: 0px 8px;
+}
+
+.single_blog {
+    width: 40%;
+    float: left;
+    margin: 50px 73px;
+}
+
+.blog_thumb {
+    
+}
+
+.blog_thumb img{
+    width: 100%;
+    
+}
+
+.blog_data {
+    margin-top: 10px;
+}
+
+.blog_data h1{
+    font-size: 37px;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.blog_data p{
+    font-size: 20px;
+    line-height: 28px;
+    padding: 25px 0px;
+    word-spacing: 5px;
+    text-align: justify;
+    padding: 10px 0;
+}
+
+.newletter_form {
+    text-align: center;
+        padding: 65px 0px
+}
+
+.newletter_form h1{
+    color: #383838;
+    font-size: 30px;
+    padding: 22px 0px;
+}
+
+.newletter_form form{
+        position: relative;
+    width: 465px;
+    margin: 0 auto;
+}
+
+.newletter_form form input{
+        width: 413px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent
+}
+
+.newletter_form form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    right: 25px;
+    top: 15px;
+    
+}
+
+.lifestye_blog {
+}
+
+.load_more {
+    text-align: center;
+    padding: 45px 0px;
+}
+
+.load_more_btn {
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 2px solid gray;
+    font-size: 21px;
+    padding: 15px 30px;
+}
+
+.footer_content {
+}
+    
+.left_info{
+    float: left;
+    width: 40%;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+    
+.left_info ul,.right_info ul{
+    list-style: none;
+}
+    
+.left_info ul li,.right_info ul li{
+        float:left; 
+}
+    
+.left_info ul li a,.right_info ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    padding: 15px;
+    display: block;
+}
+
+.right_info ul{
+    float: right;
+}  
+
+.right_info {
+    float: right;
+    width: 50%; 
+    padding-right: 70px;
+}
+    
+footer{
+    overflow: hidden;
+    background-color: #F0F0F0;
+}
