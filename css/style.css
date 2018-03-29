@@ -196,8 +196,7 @@ header{
 .load_more_btn {
     background-color: transparent;
     text-transform: capitalize;
-    border: 2px solid gray;
-    font-size: 21px;
+    font-size: 30px;
     padding: 15px 30px;
 }
 
